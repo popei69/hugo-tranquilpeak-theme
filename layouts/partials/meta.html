@@ -60,6 +60,7 @@
 
 {{ with .Params.socialImage }}
   <meta property="og:image" content="{{ . | absURL }}">
+  <meta property="twitter:image" content="{{ . | absURL }}">
 {{ end }}
 {{ with .Params.thumbnailImage }}
   <meta property="og:image" content="{{ . | absURL }}">
